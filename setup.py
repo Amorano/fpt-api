@@ -13,7 +13,8 @@ setup(
     install_requires=[
         "urllib3",
         "certifi",
-        "requests"
+        "requests",
+        "git+https://github.com/Amorano/python-api.git"
     ],
     python_requires=">=3.7",
     long_description=long_description,
