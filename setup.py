@@ -11,10 +11,10 @@ setup(
     packages=["fpt_api"],
     package_dir={"fpt_api": "python"},
     install_requires=[
-        "shotgun_api3",
         "urllib3",
         "certifi",
-        "requests"
+        "requests",
+        "git+https://github.com/Amorano/python-api.git"
     ],
     python_requires=">=3.7",
     long_description=long_description,

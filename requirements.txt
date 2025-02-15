@@ -1,3 +1,4 @@
 git+https://github.com/Amorano/python-api.git
 urllib3
 certifi
+requests
