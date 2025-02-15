@@ -3,7 +3,7 @@ from pathlib import Path
 
 # Read README.md for long description
 this_directory = Path(__file__).parent
-long_description = (this_directory / "README.md").read_text()
+long_description = (this_directory / "README.md").read_text(encoding="utf-8")
 
 setup(
     name="fpt-api",
@@ -13,8 +13,7 @@ setup(
     install_requires=[
         "urllib3",
         "certifi",
-        "requests",
-        "git+https://github.com/Amorano/python-api.git"
+        "requests"
     ],
     python_requires=">=3.7",
     long_description=long_description,
